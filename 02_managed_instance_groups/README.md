@@ -169,7 +169,7 @@ gcloud compute instance-groups managed rolling-action start-update instance-grou
 3. Perform update to the remaining instance from the group:
 
 ```bash
-gcloud compute instance-groups managed rolling-action start-update instance-group-cr --version template=template2-cr --max-unavailable 100% --zone europe-west1-b
+gcloud compute instance-groups managed rolling-action start-update instance-group-cr --version template=template2-cr --zone europe-west1-b
 ```
 
 4. Verify that remaining machine was update by checking its `index.html` page.
