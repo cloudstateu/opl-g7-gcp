@@ -20,7 +20,7 @@ gcloud sql instances describe sql-instance --format="get(connectionName)"
 
 1. Przejdź do folderu `/app`
 1. Otwórz plik `app.yaml`
-1. Podaj wartość zmiennej `CONNECTION_NAME`
+1. Podaj wartość zmiennej `PGHOST`
 
 ## Krok 3: Deploy aplikacji
 
