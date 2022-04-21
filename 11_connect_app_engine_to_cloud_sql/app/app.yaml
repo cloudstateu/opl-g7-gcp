@@ -18,4 +18,4 @@ env_variables:
   PGPASSWORD: password123
   PGDATABASE: lp_test
   PGPORT: 5432
-  CONNECTION_NAME: /cloudsql/training-maciejborowy-3:europe-west3:sql-instance
+  PGHOST: /cloudsql/training-maciejborowy-3:europe-west3:sql-instance
